@@ -14,7 +14,6 @@ func main() {
 	scanner.Scan()
 	// read input
 	text := scanner.Text()
-	// split strings by space " "
 	x, err := strconv.ParseFloat(text, 64)
 	if err != nil {
 		return
