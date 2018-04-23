@@ -1,8 +1,8 @@
 package main
 
 import (
-	"fmt"
 	"bufio"
+	"fmt"
 	"os"
 	"strconv"
 )
@@ -19,9 +19,8 @@ func main() {
 		return
 	}
 	calc(x)
-	
-}
 
+}
 
 func calc(input float64) {
 	// earth days are 365.25

@@ -1,8 +1,8 @@
 package main
 
 import (
-	"fmt"
 	"bufio"
+	"fmt"
 	"os"
 )
 
@@ -13,7 +13,7 @@ func main() {
 	text := scanner.Text()
 	if len(text) == 0 {
 		fmt.Println("Fine. Be that way!")
-	}else {
+	} else {
 		conversation(text)
 	}
 }

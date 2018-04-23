@@ -1,8 +1,8 @@
 package main
 
 import (
-	"fmt"
 	"bufio"
+	"fmt"
 	"os"
 	"strings"
 )
@@ -31,5 +31,11 @@ func main() {
 	text2 = strings.ToUpper(text2)
 
 	// iterate over both strings and write a counter for every mismatch
-
+	x := 0
+	for i := range text {
+		if text[i] != text2[i] {
+			x = x + 1
+		}
+	}
+	fmt.Printf("The different between the two strands is %d\n", x)
 }
