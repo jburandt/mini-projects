@@ -1,4 +1,5 @@
 Simple download manager.
 
-# Usage
-./download-manager <url>
+ Usage
+
+./download-manager url-of-file
